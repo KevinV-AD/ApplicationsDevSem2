@@ -4,7 +4,7 @@
 puts "Enter the current tempature: "
 
 #store User Input into 'temp' var
-int temp = 10
+temp = gets.to_i
 
     if temp <= 10
         puts "it's cold"
