@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
-
+#dont forget to run 
 #prompt user for int input
 puts "Enter the current tempature: "
 
 #store User Input into 'temp' var
-int temp = gets.chomp
+int temp = 10
 
 if temp <= 10
     puts "it's cold"
@@ -16,3 +16,4 @@ if temp <= 40
     puts "its hot"
 if temp > 40
     puts "it's too hot!!!"
+end
